@@ -1,0 +1,16 @@
+global:
+  namespace: Development
+  env_name: test
+
+plugins:
+  config:
+    etcd:
+      endpoints:
+        - 127.0.0.1:2379
+      dial_timeout: 5
+      prefix: ""
+      # username: ""
+      # password: ""
+      # ca_cert: ""
+      # cert_key: ""
+      # cert_cert: ""
